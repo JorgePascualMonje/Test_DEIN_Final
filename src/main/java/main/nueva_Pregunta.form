@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="labelPregunta" alignment="0" max="32767" attributes="0"/>
+                          <Component id="labelCorrecta" alignment="0" max="32767" attributes="0"/>
+                          <Component id="labelErronea1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="textPregunta" alignment="0" pref="236" max="32767" attributes="0"/>
+                          <Component id="textCorrecta" alignment="0" max="32767" attributes="0"/>
+                          <Component id="textErronea1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="labelErronea2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="textErronea2" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="labelErronea3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="textErronea3" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="botonAceptar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelPregunta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textPregunta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelCorrecta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textCorrecta" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelErronea1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textErronea1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelErronea2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textErronea2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="labelErronea3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="textErronea3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="botonAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="textErronea1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textErronea2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textErronea3">
+    </Component>
+    <Component class="javax.swing.JButton" name="botonAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelPregunta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pregunta: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelCorrecta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Respuesta Correcta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelErronea1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Respuesta Incorrecta 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelErronea2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Respuesta Incorrecta 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelErronea3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Respuesta Incorrecta 3:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="textPregunta">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textCorrecta">
+    </Component>
+  </SubComponents>
+</Form>
