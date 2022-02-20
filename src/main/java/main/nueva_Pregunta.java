@@ -85,24 +85,17 @@ public class nueva_Pregunta extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        textPregunta = new javax.swing.JTextField();
+        textCorrecta = new javax.swing.JTextField();
         textErronea1 = new javax.swing.JTextField();
         textErronea2 = new javax.swing.JTextField();
         textErronea3 = new javax.swing.JTextField();
-        botonAceptar = new javax.swing.JButton();
         labelPregunta = new javax.swing.JLabel();
         labelCorrecta = new javax.swing.JLabel();
         labelErronea1 = new javax.swing.JLabel();
         labelErronea2 = new javax.swing.JLabel();
         labelErronea3 = new javax.swing.JLabel();
-        textPregunta = new javax.swing.JTextField();
-        textCorrecta = new javax.swing.JTextField();
-
-        botonAceptar.setText("Aceptar");
-        botonAceptar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonAceptarActionPerformed(evt);
-            }
-        });
+        botonAceptar = new javax.swing.JButton();
 
         labelPregunta.setText("Pregunta: ");
 
@@ -113,6 +106,13 @@ public class nueva_Pregunta extends javax.swing.JPanel {
         labelErronea2.setText("Respuesta Incorrecta 2:");
 
         labelErronea3.setText("Respuesta Incorrecta 3:");
+
+        botonAceptar.setText("Aceptar");
+        botonAceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAceptarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

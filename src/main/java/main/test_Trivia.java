@@ -120,7 +120,7 @@ public class test_Trivia extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
+        botonTerminar = new javax.swing.JButton();
         pregunta_2 = new main.nuevo_Test();
         pregunta_1 = new main.nuevo_Test();
         pregunta_3 = new main.nuevo_Test();
@@ -132,10 +132,10 @@ public class test_Trivia extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton1.setText("Terminar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        botonTerminar.setText("Terminar");
+        botonTerminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                botonTerminarActionPerformed(evt);
             }
         });
 
@@ -177,7 +177,7 @@ public class test_Trivia extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(labelResultado, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton1)))
+                        .addComponent(botonTerminar)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -190,7 +190,7 @@ public class test_Trivia extends javax.swing.JFrame {
                 .addComponent(pregunta_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
+                    .addComponent(botonTerminar)
                     .addComponent(labelResultado))
                 .addContainerGap())
         );
@@ -212,7 +212,7 @@ public class test_Trivia extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_viajarNuevaPreguntaActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void botonTerminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonTerminarActionPerformed
         // TODO add your handling code here:
         nuevo_Test primerapregunta = pregunta_1;
         nuevo_Test segundapregunta = pregunta_2;
@@ -306,7 +306,7 @@ public class test_Trivia extends javax.swing.JFrame {
         //Mostramos la nota
         labelResultado.setText(Nota+"/3");
         labelResultado.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_botonTerminarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -344,8 +344,8 @@ public class test_Trivia extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botonTerminar;
     private javax.swing.JMenu itemNavegacion;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel labelResultado;
     private javax.swing.JMenuBar menuTest;
     private main.nuevo_Test pregunta_1;

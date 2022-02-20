@@ -87,19 +87,15 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
+    <Component class="javax.swing.JTextField" name="textPregunta">
+    </Component>
+    <Component class="javax.swing.JTextField" name="textCorrecta">
+    </Component>
     <Component class="javax.swing.JTextField" name="textErronea1">
     </Component>
     <Component class="javax.swing.JTextField" name="textErronea2">
     </Component>
     <Component class="javax.swing.JTextField" name="textErronea3">
-    </Component>
-    <Component class="javax.swing.JButton" name="botonAceptar">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Aceptar"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="labelPregunta">
       <Properties>
@@ -126,9 +122,13 @@
         <Property name="text" type="java.lang.String" value="Respuesta Incorrecta 3:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="textPregunta">
-    </Component>
-    <Component class="javax.swing.JTextField" name="textCorrecta">
+    <Component class="javax.swing.JButton" name="botonAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonAceptarActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

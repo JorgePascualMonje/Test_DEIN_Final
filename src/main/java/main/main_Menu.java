@@ -26,15 +26,15 @@ public class main_Menu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        botonTest2 = new javax.swing.JButton();
+        botonTest = new javax.swing.JButton();
         botonNuevaPregunta = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        botonTest2.setText("Empezar Test");
-        botonTest2.addActionListener(new java.awt.event.ActionListener() {
+        botonTest.setText("Empezar Test");
+        botonTest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonTest2ActionPerformed(evt);
+                botonTestActionPerformed(evt);
             }
         });
 
@@ -53,14 +53,14 @@ public class main_Menu extends javax.swing.JFrame {
                 .addContainerGap(138, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(botonNuevaPregunta, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(botonTest2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(botonTest, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(143, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap(106, Short.MAX_VALUE)
-                .addComponent(botonTest2)
+                .addComponent(botonTest)
                 .addGap(31, 31, 31)
                 .addComponent(botonNuevaPregunta)
                 .addContainerGap(113, Short.MAX_VALUE))
@@ -69,12 +69,12 @@ public class main_Menu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void botonTest2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonTest2ActionPerformed
+    private void botonTestActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonTestActionPerformed
         // TODO add your handling code here:
         //Nos movemos a un nuevo test
         new test_Trivia().setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_botonTest2ActionPerformed
+    }//GEN-LAST:event_botonTestActionPerformed
 
     private void botonNuevaPreguntaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonNuevaPreguntaActionPerformed
         // TODO add your handling code here:
@@ -120,6 +120,6 @@ public class main_Menu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton botonNuevaPregunta;
-    private javax.swing.JButton botonTest2;
+    private javax.swing.JButton botonTest;
     // End of variables declaration//GEN-END:variables
 }
